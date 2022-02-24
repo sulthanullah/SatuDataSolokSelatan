@@ -101,17 +101,45 @@ CKAN dikembangkan dengan menggunakan bahasa pemrograman Python sebagai backend, 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+- 👨‍💻 &nbsp; Step One
+* Update Ubuntu
   ```sh
-  npm install npm@latest -g
+  apt update
   ```
-
+* Upgrade Ubuntu
+  ```sh
+  apt upgrade -y
+  ```
+* Install alat bantu 
+  ```sh
+  apt-get install python3 python3-setuptools docker.io -y
+  ```
+* Install pip3
+  ```sh
+  apt-get install python3-pip -y
+  ```
+ * Install curl
+  ```sh
+  apt-get install curl -y
+  ```
+  
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Langkah - Langkah Install CKAN In Proxmox._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Upgrade docker-compose version
+     ```sh
+   sudo apt-get remove docker-compose
+   ```
+      ```sh
+   sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   ```
+     ```sh
+   sudo chmod +x /usr/local/bin/docker-compose
+   ```
+      ```sh
+   sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   ```
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
