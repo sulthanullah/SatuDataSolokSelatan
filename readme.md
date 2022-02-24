@@ -18,7 +18,7 @@
   <h3 align="center">Satu Data Kabupaten Solok Selatan</h3>
 
   <p align="center">
-    An awesome Projects!
+    Install In Proxmox & Docker
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
@@ -157,9 +157,19 @@ _Langkah - Langkah Install CKAN In Proxmox._
       ```sh
      docker-compose up -d --build
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Check the installation successfully completed
+      ```sh
+     docker-compose restart ckan
+   ```
+    ```sh
+     docker ps | grep ckan
+   ```
+     ```sh
+     docker-compose logs -f ckan
+   ```
+5. Access to your site_url domain or IP.
+       ```sh
+     http://{site_url_domain or IP}:5000
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
