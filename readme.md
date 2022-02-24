@@ -168,7 +168,7 @@ _Langkah - Langkah Install CKAN In Proxmox._
      docker-compose logs -f ckan
    ```
 5. Access to your site_url domain or IP.
-       ```sh
+   ```js
      http://{site_url_domain or IP}:5000
    ```
 
