@@ -118,7 +118,7 @@ CKAN dikembangkan dengan menggunakan bahasa pemrograman Python sebagai backend, 
   ```sh
   apt-get install python3-pip -y
   ```
- * Install curl
+* Install curl
   ```sh
   apt-get install curl -y
   ```
@@ -142,11 +142,20 @@ _Langkah - Langkah Install CKAN In Proxmox._
    ```
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/ckan/ckan.git
    ```
-3. Install NPM packages
+3. Install
    ```sh
-   npm install
+   git checkout tags/ckan-2.9.0
+   ```
+      ```sh
+   cd /ckan/contrib/docker
+   ```
+      ```sh
+   cp -rp .env.template .env
+   ```
+      ```sh
+     docker-compose up -d --build
    ```
 4. Enter your API in `config.js`
    ```js
