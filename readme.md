@@ -79,16 +79,10 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Comprehensive Knowledge Archive Network (CKAN) adalah perangkat lunak open source untuk portal open data, CMS yang dapat membantu kita dalam mengelola dan menerbitkan sekumpulan data. CKAN digunakan oleh pemerintah pusat dan daerah, lembaga penelitian, dan organisasi lain untuk mempublikasikan data.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Contoh pemakaian di Indonesia yaitu Satu Data Indonesia (SDI) yang merupakan kebijakan tata kelola data pemerintah dengan tujuan untuk menciptakan data berkualitas, mudah diakses, dan dapat dibagipakaikan antar instansi pusat dan daerah. Kebijakan SDI ini tertuang dalam Peraturan Presiden No. 39 Tahun 2019 tentang Satu Data Indonesia. Melalu SDI, seluruh data pemerintah dan data instansi lain yang terkait dapat bermuara di Portal Satu Data Indonesia (data.go.id). 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
