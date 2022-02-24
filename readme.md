@@ -18,7 +18,7 @@
   <h3 align="center">Satu Data Kabupaten Solok Selatan</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Projects!
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
@@ -64,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://satudata.solselkab.go.id)
 
 Comprehensive Knowledge Archive Network (CKAN) adalah perangkat lunak open source untuk portal open data, CMS yang dapat membantu kita dalam mengelola dan menerbitkan sekumpulan data. CKAN digunakan oleh pemerintah pusat dan daerah, lembaga penelitian, dan organisasi lain untuk mempublikasikan data.
 
@@ -75,18 +75,16 @@ Contoh pemakaian di Indonesia yaitu Satu Data Indonesia (SDI) yang merupakan keb
 
 
 
-### Built With
+### Tech Stack
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+CKAN dikembangkan dengan menggunakan bahasa pemrograman Python sebagai backend, JavaScript sebagai frontend, database PostgreSQL dan search engine Solr. CKAN memungkinkan untuk ditambahkan ekstensi atau fitur tambahan karena memakai arsitektur modular. Selain itu CKAN juga memiliki fitur API.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python](https://www.python.org/downloads/)
+* [PostgreSQL](https://www.jetbrains.com/datagrip/features/?source=google&medium=cpc&campaign=15034928131&gclid=Cj0KCQiA09eQBhCxARIsAAYRiym4GpmfEQVKxJR41HXWfTV4lA1QN0q9-SPzHS1RVQN4CAPbVjqkv4EaArViEALw_wcB)
+* [Solr](https://en.wikipedia.org/wiki/Apache_Solr)
+* [Ubuntu](https://ubuntu.com)
+* [Docker](http://docker.com)
+* [Proxmox](https://www.proxmox.com/en/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -95,8 +93,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+* Install Proxmox
+* Install VM Ubuntu
+* Install Docker
+* Git Clone CKAN
+
 
 ### Prerequisites
 
